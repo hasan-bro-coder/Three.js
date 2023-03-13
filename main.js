@@ -4,7 +4,7 @@ import * as THREE from 'https://unpkg.com/three@0.127.0/build/three.module'
 
 import { OrbitControls } from 'https://unpkg.com/three@0.127.0/examples/jsm/controls/OrbitControls';
 
-import gsap from 'gsap';
+// import gsap from 'gsap';
 
 // import * as r from 'https://unpkg.com/browse/redis@2.3.1/index.js'
 // import { FlyControls } from 'three/addons/controls/FlyControls.js';
