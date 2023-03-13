@@ -1,0 +1,27 @@
+
+  *{
+    overflow: hidden;
+    cursor: url(https://cursor.in/assets/cursor.svg),help;
+  }
+  .bg {
+    color: #ff0000;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    scale: 1;
+    transition: 1s;
+  }
+  .cur{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 400;
+    rotate: 330deg;
+    pointer-events: none;
+     /* opacity: 0; */
+     color: azure;
+  text-transform: capitalize;
+  /*  border: 1px green solid; */
+  font-family: monospace;
+  }
+  
