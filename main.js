@@ -1,4 +1,4 @@
-import './style.css'
+// import './style.css'
 
 import * as THREE from 'https://unpkg.com/three@0.127.0/build/three.module'
 
@@ -24,7 +24,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 camera.position.setZ(100);
 // camera.position.setX(-100);
 renderer.render(scene, camera);
-let earth = new THREE.TextureLoader().load('sun.jpg');
+// let earth = new THREE.TextureLoader().load('sun.jpg');
 const geometry = new THREE.SphereGeometry( 15, 64, 64 );
 const material = new THREE.MeshStandardMaterial({ color:0x00dd88 ,roughness: 0.4});
 const torus = new THREE.Mesh(geometry, material);
@@ -118,8 +118,8 @@ window.onmousemove = (e) => {
 window.onresize = () => {
   location.reload()
 }
-let tl = gsap.timeline({defaults:{duration: 1}})
-let t = gsap.timeline({defaults:{duration: 3}})
-tl.fromTo(torus.scale, { z: 0,x: 0,y: 0} ,{ z: 1,x: 1,y: 1})
+// let tl = gsap.timeline({defaults:{duration: 1}})
+// let t = gsap.timeline({defaults:{duration: 3}})
+// tl.fromTo(torus.scale, { z: 0,x: 0,y: 0} ,{ z: 1,x: 1,y: 1})
 // t.fromTo(controls.autoRotateSpeed, {a} ,{x:5})
 // redis.set("string key", "string val")
