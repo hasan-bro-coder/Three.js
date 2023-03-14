@@ -26,7 +26,9 @@ camera.position.setZ(100);
 renderer.render(scene, camera);
 // let earth = new THREE.TextureLoader().load('sun.jpg');
 const geometry = new THREE.SphereGeometry( 15, 64, 64 );
-const material = new THREE.MeshStandardMaterial({ color:0x00dd88 ,roughness: 0.4});
+const material = new THREE.MeshStandardMaterial({ flatShading:true,
+color:0x049ef4 ,
+roughness: 0.4});
 const torus = new THREE.Mesh(geometry, material);
 
 scene.add(torus);
